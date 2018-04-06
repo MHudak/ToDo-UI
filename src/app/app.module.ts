@@ -9,7 +9,6 @@ import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { AppRoutingModule }     from './app-routing.module';
 
 import { AppComponent }         from './app.component';
-import { DashboardComponent }   from './dashboard/dashboard.component';
 import { UserDetailComponent }  from './user-detail/user-detail.component';
 import { UsersComponent }      from './users/users.component';
 import { UserService }          from './user.service';
@@ -31,7 +30,6 @@ import { MessageService }       from './message.service';
   ],
   declarations: [
     AppComponent,
-    DashboardComponent,
     UsersComponent,
     UserDetailComponent
   ],
