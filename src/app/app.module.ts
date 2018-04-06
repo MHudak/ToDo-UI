@@ -12,10 +12,8 @@ import { AppComponent }         from './app.component';
 import { DashboardComponent }   from './dashboard/dashboard.component';
 import { UserDetailComponent }  from './user-detail/user-detail.component';
 import { UsersComponent }      from './users/users.component';
-import { UserSearchComponent }  from './user-search/user-search.component';
 import { UserService }          from './user.service';
 import { MessageService }       from './message.service';
-import { MessagesComponent }    from './messages/messages.component';
 
 @NgModule({
   imports: [
@@ -35,9 +33,7 @@ import { MessagesComponent }    from './messages/messages.component';
     AppComponent,
     DashboardComponent,
     UsersComponent,
-    UserDetailComponent,
-    MessagesComponent,
-    UserSearchComponent
+    UserDetailComponent
   ],
   providers: [ UserService, MessageService ],
   bootstrap: [ AppComponent ]
